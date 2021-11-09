@@ -33,6 +33,11 @@ authors:
     email: fakemail@gmail.com
     twitter: https://twitter.com/wowthemesnet
     
+_options:
+  _block:
+    left: align-left
+    right: align-right
+    
 
 
 # Defaults
@@ -50,6 +55,10 @@ defaults:
       path: "_pages"
     values:
       layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
 
 # Paginate
 paginate: 10
